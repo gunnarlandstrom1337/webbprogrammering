@@ -1,0 +1,28 @@
+body{
+
+    background-color: powderblue;
+}
+
+
+h1{
+    color: powderblue;
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.header {
+    margin:auto;
+    background-color:cadetblue;
+}
+
+/*
+.textInput{
+    color: burlywood;
+    font-size: 36px;
+    margin: 300px;
+    background-color: red;
+    margin:auto;
+    text-align: center;
+}
+    */
