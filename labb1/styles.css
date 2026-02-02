@@ -1,28 +1,68 @@
 body{
 
     background-color: powderblue;
+    cursor:default;
 }
 
 
 h1{
     color: powderblue;
     text-align: center;
-    font-size: 40px;
-    border: 1px solid black;
+    font-size: 32px;
+
+    margin: auto;
 }
 
 .header {
-    margin:auto;
+    margin: 0px auto;
     background-color:cadetblue;
+ 
 }
 
-/*
-.textInput{
-    color: burlywood;
-    font-size: 36px;
-    margin: 300px;
-    background-color: red;
-    margin:auto;
+
+.todoBlock{
+    color:darkslategrey;
+    font-size: 32px;
+    padding: 1px;
+    background: cadetblue;
+    width: 360px;
+    margin: 20px auto;
     text-align: center;
+    border-radius: 16px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    
 }
-    */
+
+.todoBlock:hover {
+    transform: translateY(-3px);
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: powderblue;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+}
+
+button{
+    background: darkslategray;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor:pointer;
+}
